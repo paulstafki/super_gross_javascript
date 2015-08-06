@@ -1,0 +1,32 @@
+{
+  "noun1": {
+    "name": "arrays"
+  },
+  "noun2": {
+    "name": "objects"
+  },
+  "noun3": {
+    "name": "loops"
+  },
+  "noun4": {
+    "name": "MEAN stack"
+  },
+  "noun5": {
+    "name": "AJAX"
+  },
+  "noun6": {
+    "name": "json"
+  },
+  "noun7": {
+    "name": "Javascript"
+  },
+  "noun8": {
+    "name": "Express"
+  },
+  "noun9": {
+    "name": "Server side"
+  },
+  "noun10": {
+    "name": "Client side"
+  }
+}
