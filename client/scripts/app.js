@@ -41,11 +41,11 @@ $(document).ready(function (){
     });
 
     $('body').on('click','.ventButton', function() {//add data attributes
-        $('.ventBox').children().last().remove();
+        $('.ventBox').children().remove();
         var preAdjectiveApp = preAdjective[randomIndex(0, (preAdjective.length - 1))];
         var adjectiveApp = adjective[randomIndex(0, (adjective.length- 1))];
         var nounApp = noun[randomIndex(0, (noun.length- 1))];
         $('.ventBox').append('<p>' + preAdjectiveApp + ' ' + adjectiveApp + ' ' + nounApp + '</p>');
-        $('.ventBox').append('<p class="insult">your moms a ' + nounApp + '</p>');
+        $('.ventBox').append('<p class="insult">your moms a(n) ' + nounApp + '</p>');
     });
 });

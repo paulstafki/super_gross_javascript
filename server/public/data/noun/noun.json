@@ -18,15 +18,36 @@
     "name": "json"
   },
   "noun7": {
-    "name": "Javascript"
+    "name": "javascript"
   },
   "noun8": {
-    "name": "Express"
+    "name": "express"
   },
   "noun9": {
-    "name": "Server side"
+    "name": "server-side"
   },
   "noun10": {
-    "name": "Client side"
+    "name": "client-side"
+  },
+  "noun11": {
+    "name": "boolean"
+  },
+  "noun12": {
+    "name": "function"
+  },
+  "noun13": {
+    "name": "argument"
+  },
+  "noun14": {
+    "name": "debugger"
+  },
+  "noun15": {
+    "name": "class"
+  },
+  "noun16": {
+    "name": "string"
+  },
+  "noun17": {
+    "name": "return"
   }
 }
