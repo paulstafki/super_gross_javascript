@@ -1,9 +1,9 @@
+body {
+    text-align: center;
+}
+
 .ventButton {
-    width:350px;
-    height:80px;
-    position:relative;
-    left:50%;
-    margin:40px 0 0 -175px;
+    margin-top:40px;
     box-shadow: 0px 19px 13px -6px #276873;
     background:linear-gradient(to bottom, #FFCC66 5%, #408c99 100%);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
@@ -26,18 +26,15 @@
 
 .ventBox {
     color: red;
-    max-width: 100%;
     margin-top: 100px;
 }
 
 .ventBox p {
-    font-size: 80px;
-    text-align: center;
+    font-size: 60px;
     letter-spacing: 5px;
 }
 
 .ventBox .insult {
-    font-size: 10px;
-    text-align: center;
+    font-size: 14px;
     letter-spacing: 5px;
 }

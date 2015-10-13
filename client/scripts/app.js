@@ -37,7 +37,7 @@ $(document).ready(function (){
     ).then(function() {
         console.log("When in the... then");
         $('.ventBox').children().remove();
-        $('body').prepend('<button class="ventButton">Vent? ... VENT!!!!1</button>');
+        $('body').prepend('<button class="ventButton">Vent?</button>');
     });
 
     $('body').on('click','.ventButton', function() {//add data attributes
@@ -49,9 +49,9 @@ $(document).ready(function (){
         var insultLetter = nounApp.charAt(0);
             if (['a', 'e', 'i', 'o', 'u'].indexOf(insultLetter) > -1) {
                 console.log(insultLetter);
-                $('.ventBox').append('<p class="insult">your moms an ' + nounApp + '</p>');
+                $('.ventBox').append('<p class="insult">you\'re an ' + nounApp + '</p>');
             } else {
-                $('.ventBox').append('<p class="insult">your moms a ' + nounApp + '</p>');
+                $('.ventBox').append('<p class="insult">you\'re a ' + nounApp + '</p>');
             }
     });
 });
