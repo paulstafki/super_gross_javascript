@@ -46,6 +46,12 @@ $(document).ready(function (){
         var adjectiveApp = adjective[randomIndex(0, (adjective.length- 1))];
         var nounApp = noun[randomIndex(0, (noun.length- 1))];
         $('.ventBox').append('<p>' + preAdjectiveApp + ' ' + adjectiveApp + ' ' + nounApp + '</p>');
-        $('.ventBox').append('<p class="insult">your moms a(n) ' + nounApp + '</p>');
+        var insultLetter = nounApp.charAt(0);
+            if (['a', 'e', 'i', 'o', 'u'].indexOf(insultLetter) > -1) {
+                console.log(insultLetter);
+                $('.ventBox').append('<p class="insult">your moms an ' + nounApp + '</p>');
+            } else {
+                $('.ventBox').append('<p class="insult">your moms a ' + nounApp + '</p>');
+            }
     });
 });
